@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#F7B500"><title>Seguidilla Food Truck - Menú digital y pedidos</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"></head><body>
+
+<div class="view on" id="home"><div id="admbar"></div><div class="wrap">
+<div class="banner"><div class="bm" id="bm">SABOR QUE<br>SE SIGUE</div></div>
+<div class="prof"><div class="logo"><img id="lg" alt="Seguidilla Food Truck"></div>
+<div class="pm"><h1><span id="sn">SEGUIDILLA FOOD TRUCK</span> <span class="ab" id="ab"><i></i>Abierto</span></h1><p class="sub" id="ssub">Food Truck · Yaroa · Chimis · Hamburguesas · Mofongos</p></div>
+<div class="acts"><div class="ic"><button data-act="wa" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.3 17.3 1.7 22.3 6.9 20.9A10.4 10.4 0 1 0 3.3 17.3Z"/><path d="M8 6.5h1.3l1.2 2.7-.8 1c.8 1.6 1.9 2.6 3.3 3.2l1-.9 2.8 1.3c.1 1.4-.9 2.5-2.5 2.6-4.1-.3-7.4-3.3-7.6-7.2-.1-1.5.7-2.6 1.3-2.7Z"/></svg></button><button data-act="ig" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></button><button data-act="map" aria-label="Ubicación"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></button></div><div class="bt2"><button data-act="inf"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg> Información</button></div></div></div>
+<div class="navbar"><button class="sq" id="sb" data-act="srch" aria-label="Buscar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button><button class="sq" id="mb" data-act="cats" aria-label="Menú"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div id="nav"></div></div>
+<div id="qw"><input class="srch" id="q" type="search" placeholder="Buscar en el menú"></div>
+<div id="list"></div><div class="ftl"><p class="note">Sabor que se sigue</p><button id="alink">🔒 Admin</button></div></div></div>
+<div class="view" id="prod"><header class="ph"><button class="back" data-back><svg width="24" height="24" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/></svg></button><b id="phn" style="font-size:18px"></b></header>
+<div class="pc"><div class="pimg"><img id="pim" alt=""><button class="back" data-back aria-label="Volver"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/></svg></button></div>
+<div class="pi"><h1 id="pt"></h1><p class="desc" id="pd"></p><div class="price" id="pp"></div><hr><div id="mods"></div>
+<div class="cm"><p>Comentarios</p><textarea id="cmt" rows="2" maxlength="250" placeholder="(Opcional)"></textarea></div></div></div>
+<div class="ft"><div class="fc"><div class="inc"><button id="mn" disabled>−</button><span id="qn">1</span><button id="pl">+</button></div><button class="add" id="add"><span>Agregar</span><span id="ap"></span></button></div></div></div>
+<button id="bar"></button>
+<div id="sh"><div class="pan"><button class="x" id="cx">×</button><h3>Tu pedido</h3><div id="cls"></div><div class="tot"><span>Total</span><span id="ct"></span></div><input id="nm" placeholder="Tu nombre"><textarea id="ad" rows="2" placeholder="Dirección o notas de entrega"></textarea><button class="wa" id="send">Enviar pedido por WhatsApp</button></div></div>
+<div id="md"><div class="mp"><div class="mh"><b id="mdt"></b><button id="mdx" aria-label="Cerrar">×</button></div><div class="mb2" id="mdb"></div></div></div><div id="tt"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="js/images.js"></script>
+<script src="js/app.js"></script>
+</body></html>
